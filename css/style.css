@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+}
+
+body{
+    background-color: rgba(0, 102, 161, 0.8);
+}
+
+#tableDiv{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    width: 450px;
+    height: 450px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center; 
+    font-size: 50px;
+    color: rgb(50, 39, 61);
+}
+
+td {
+    border: 2px solid #0c413f;
+    padding: 0;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 22px;
+    background-color: #0c413f;
+    border-style: none;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.prikazi {
+    display: inline-block;
+    text-align: center;
+}
+
+#obavestenje {
+    padding: 5px;
+    color:  rgb(50, 39, 61);
+    font-size: larger;
+}
