@@ -46,7 +46,7 @@ function poraz(clanNizaO){
             let o = kombinacija[i].map(clan => clanNizaO.includes(clan))
             if(o[0] && o[1] && o[2]){
                izbrisi()
-                obavestenje.textContent = "IZGUBIO SI"
+                obavestenje.textContent = "YOU LOST"
                 dugme.classList = 'prikazi'
                 break
             } 
@@ -61,7 +61,7 @@ function pobeda(clanNizaX,tajmaut){
             if(x[0] && x[1] && x[2]){
                 izbrisi()
                 clearTimeout(tajmaut)
-                obavestenje.textContent = "POBEDIO SI"
+                obavestenje.textContent = "YOU WON"
                 dugme.classList = 'prikazi'
                 break
             }
@@ -85,7 +85,7 @@ function izbrisi(){
 }
 
 function nereseno(){
-    obavestenje.textContent = "NERESENO"
+    obavestenje.textContent = "IT'S A DRAW"
     dugme.classList = 'prikazi'
 }
 
